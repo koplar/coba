@@ -9,7 +9,7 @@ import { HomePage } from '../pages/home/home';
 
 /** Tambahan */
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
-import { InAppBrowser } from '@ionic-native/in-app-browser'
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 /** --- */
 
 @NgModule({
