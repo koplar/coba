@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 
 /** Tambahan */
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { NgxQRCodeModule } from 'ngx-qrcode2';
 /** --- */
 
 @NgModule({
@@ -18,6 +19,7 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
   ],
   imports: [
     BrowserModule,
+    NgxQRCodeModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
