@@ -42,7 +42,7 @@ export class HomePage {
 
   linkUrlnew() : void {
     const openBrowser = this.inAppBrowser.create(
-      'http://inixindosurabaya.id',
+      'http://rs-premiersurabaya.com/',
       '_self', // atau _self
       'location=yes'
     );
